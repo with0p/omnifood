@@ -119,7 +119,7 @@ h3 {
 .main-nav li a:link,
 .main-nav li a:visited
  {
-     padding: 8px 0;
+    padding: 8px 0;
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
@@ -189,9 +189,55 @@ h2::after {
     margin-left: 15%;
 }
 
+.section-features .long-copy {
+    margin-bottom: 25px;
+
+}
+
 .box p{
     font-size: 90%;
     line-height: 150%;
+}
+
+
+/* MEALS section */
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+list-style: none;
+width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width:100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;;
+}
+
+.meal-photo img {
+    width:100%;
+    height: auto;
+    display: block;
+    transform: translateZ(0) scale(1.15);
+    transition: transform 1s, opacity 1s;
+    opacity: 0.7;
+
+}
+
+.meal-photo img:hover {
+
+    transform: translateZ(0) scale(1);
+    filter: blur(0);
+    opacity: 1;
 }
 
 /* Icons */
