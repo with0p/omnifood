@@ -1,7 +1,13 @@
+
+/* COLOR variables */
+
 :root {
     --main-orange-color: #e67e22;
     --dark-orange-color: #b36018;
 }
+
+
+/* Default styles */
 
 * {
     margin: 0;
@@ -9,6 +15,7 @@
     box-sizing: border-box;
 
 }
+
 
 html {
     background-color: #fff;
@@ -19,11 +26,16 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+
+/* Overwritten grid styles */
+
 .row {
     max-width: 1140px;
     margin: 0 auto 0 auto;
-    text-align: center;
 }
+
+
+/* General page tags*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
@@ -32,15 +44,33 @@ header {
     height: 100vh;
 }
 
+section{
+    padding: 80px 0;;
+}
+
+h1,h2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 h1 {
     margin-top: 0;
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    font-weight: 300;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+    word-spacing: 4px;
+
 }
+
+h2 {
+    font-size: 180%;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/* HEADER */
 
 .hero-text-box  {
     position: absolute;
@@ -57,6 +87,9 @@ h1 {
     float: left;
     margin-top: 20px;
 }
+
+
+/* header navigation */
 
 .main-nav {
     float: right;
@@ -90,6 +123,9 @@ h1 {
 
 }
 
+
+/* header buttons */
+
 .btn:link,
 .btn:visited {
     display: inline-block;
@@ -121,3 +157,19 @@ h1 {
     border: 1px solid var(--dark-orange-color);
     color: #fff;
 }
+
+
+/* FEATURES section */
+
+
+h2::after {
+    display: block;
+    height: 2px;
+    background-color: var(--main-orange-color);
+    content: " ";
+    width:100px;
+    margin: 30px auto 30px auto;
+}
+
+
+
