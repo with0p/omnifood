@@ -26,15 +26,6 @@ html {
     text-rendering: optimizeLegibility;
 }
 
-
-/* Overwritten grid styles */
-
-.row {
-    max-width: 1140px;
-    margin: 0 auto 0 auto;
-}
-
-
 /* General page tags*/
 
 header {
@@ -48,10 +39,11 @@ section{
     padding: 80px 0;;
 }
 
-h1,h2 {
+h1,
+h2,
+h3 {
     font-weight: 400;
     text-transform: uppercase;
-    letter-spacing: 1px;
 }
 h1 {
     margin-top: 0;
@@ -59,6 +51,7 @@ h1 {
     color: #fff;
     font-size: 240%;
     word-spacing: 4px;
+    letter-spacing: 1px;
 
 }
 
@@ -67,6 +60,26 @@ h2 {
     word-spacing: 2px;
     text-align: center;
     margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+
+h3 {
+    font-size: 110%;
+    word-spacing: 2px;
+    margin-bottom: 15px;
+
+}
+
+/* Reusable */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+.box {
+    padding: 1%;
 }
 
 
@@ -161,7 +174,6 @@ h2 {
 
 /* FEATURES section */
 
-
 h2::after {
     display: block;
     height: 2px;
@@ -171,5 +183,21 @@ h2::after {
     margin: 30px auto 30px auto;
 }
 
+.long-copy {
+    line-height: 150%;
+    width: 70%;
+    margin-left: 15%;
+}
 
+.box p{
+    font-size: 90%;
+    line-height: 150%;
+}
 
+/* Icons */
+.icon-big {
+    font-size: 300%;
+    color:var(--main-orange-color);
+    display: block;
+    margin-bottom: 20px;
+}
