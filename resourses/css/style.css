@@ -196,7 +196,7 @@ h2::after {
 
 }
 
-.box p{
+.section-features .box p{
     font-size: 90%;
     line-height: 150%;
 }
@@ -386,12 +386,6 @@ position: relative;
     left: -3px;
 }
 
-.section-testimonials cite {
-    /* font-style: italic;
-    line-height: 90%;
-    margin-top: 25px; */
-    
-    }
 
 .section-testimonials cite img {
     height: 50px;
@@ -399,6 +393,79 @@ position: relative;
     vertical-align: middle;
 }
 
+/* prices */
+.section-prices {
+    background-color: #ddd;
+
+}
+.section-prices .box {
+    background-color: #fff;
+    padding: 0;
+    box-shadow: 0 2px 2px #bbb;
+}
+
+.section-prices .box div {
+    border-bottom: solid 1px #ddd;
+    padding: 3%;
+
+}
+
+.plan-price {
+    background-color: #eee;
+    height: 30%;
+}
+
+
+.price {
+    color: var(--main-orange-color);
+    margin-bottom: 10px;
+}
+
+.price span{
+    font-size: 200%;
+    margin-right: 10px;
+}
+
+
+.meal-price {
+    font-size: 70%;
+}
+
+.conditions-list {
+    list-style-type: none;
+    font-size: 90%;
+    line-height: 150%;
+    vertical-align: top;
+}
+
+.condition i {
+    color: var(--main-orange-color);
+    font-size: 150%;
+    margin-right: 10px;
+    line-height: 100%;
+    vertical-align: bottom;
+}
+
+.btn-sign-up:link,
+.btn-sign-up:visited{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--main-orange-color);
+    border: solid 2px var(--main-orange-color);
+    border-radius: 50px;
+    padding: 2%;
+    transition: color 0.2s, background-color 0.2s ;
+}
+
+.btn-sign-up:hover,
+.btn-sign-up:active {
+    color: #fff;
+    background-color: var(--main-orange-color);
+
+}
 
 /* Icons */
 .icon-big {
