@@ -447,12 +447,14 @@ position: relative;
 }
 
 .btn-sign-up:link,
-.btn-sign-up:visited{
+.btn-sign-up:visited,
+input[type=submit] {
     margin: 0 auto;
     display: block;
     width: 150px;
     text-align: center;
     text-decoration: none;
+    background-color: #fff;;
     color: var(--main-orange-color);
     border: solid 2px var(--main-orange-color);
     border-radius: 50px;
@@ -461,11 +463,56 @@ position: relative;
 }
 
 .btn-sign-up:hover,
-.btn-sign-up:active {
+.btn-sign-up:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     color: #fff;
     background-color: var(--main-orange-color);
 
 }
+
+
+/* CONTACT FORM */
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100 px;
+}
+
+input[type=checkbox] {
+    margin: 10px 10px 10px 0;
+}
+
+input[type=submit] {
+    margin: 0;
+}
+
+.contact-form select:focus,
+.contact-form textarea:focus,
+.contact-form input:focus {
+    outline: none;
+}
+
+
+
+
+
+
+
+
 
 /* Icons */
 .icon-big {
