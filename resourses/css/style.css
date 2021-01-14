@@ -32,6 +32,8 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
+
     height: 100vh;
 }
 
@@ -357,6 +359,44 @@ margin-bottom: 15px;
     color: var(--dark-orange-color);
     border-bottom: solid 1px transparent;
     padding-bottom: 1px;
+}
+
+/* CUSTOMER'S TESTIMONIALS */
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.801),rgba(0, 0, 0, 0.801)), url(img/back-customers.jpg);
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
+}
+
+.section-testimonials blockquote {
+padding: 2%;
+font-style: italic;
+line-height: 145%;
+position: relative;
+
+}
+
+.section-testimonials blockquote:before{
+    content: "\201C";
+    font-size: 300%;
+    display: block;
+    position: absolute;
+    top:0;
+    left: -3px;
+}
+
+.section-testimonials cite {
+    /* font-style: italic;
+    line-height: 90%;
+    margin-top: 25px; */
+    
+    }
+
+.section-testimonials cite img {
+    height: 50px;
+    border-radius: 50%;
+    vertical-align: middle;
 }
 
 
