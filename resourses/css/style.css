@@ -99,6 +99,14 @@ h3 {
     margin-top: 20px;
 }
 
+.logo-black {
+    display: none;
+    height: 40px;
+    width: auto;
+    float: left;
+    margin: 3px 0;
+}
+
 
 /* header navigation */
 
@@ -127,6 +135,36 @@ h3 {
 .main-nav li a:hover,
 .main-nav li a:active {
     border-bottom: 2px solid var(--main-orange-color);
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 2px 2px rgb(173, 173, 173);
+    z-index: 9999;
+}
+
+.sticky .main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+    padding: 13px 0;
+    color: #555;
+}
+
+.sticky .logo-black {
+    display: block;
+}
+
+.sticky .logo {
+    display: none;
 }
 
 
