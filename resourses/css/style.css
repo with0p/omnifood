@@ -234,6 +234,7 @@ h2::after {
 
 .meal-photo img:hover {
     transform: translateZ(0) scale(1);
+    -webkit-filter: blur(0);
     filter: blur(0);
     opacity: 1;
 }
