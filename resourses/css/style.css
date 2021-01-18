@@ -21,6 +21,7 @@ html {
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    scroll-behavior: 'smooth';
 }
 
 
@@ -609,4 +610,21 @@ footer {
     color: var(--main-orange-color);
     display: block;
     margin-bottom: 20px;
+}
+
+
+/* Animations */
+
+.js--wp-1,
+.js--wp-3,
+.js--wp-2 {
+    opacity: 0;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+.js--wp-1.animate__animated,
+.js--wp-3.animate__animated,
+.js--wp-2.animate__animated {
+    opacity: 1;
 }
