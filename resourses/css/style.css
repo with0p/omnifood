@@ -168,6 +168,18 @@ h3 {
     display: none;
 }
 
+.nav-mobile-icons {
+    float: right;
+    margin-top: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.nav-mobile-icons {
+    color: #fff;
+    font-size: 200%;
+}
+
 
 /* header buttons */
 

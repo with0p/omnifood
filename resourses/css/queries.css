@@ -67,14 +67,43 @@
     }
     .row,
     .hero-text-box {
-        padding: 0 4%;
+        padding: 0 2%;
     }
     .col {
         width: 100%;
         margin: 0 0 2% 0;
     }
+    .nav-mobile-icons {
+        display: inline-block;
+    }
     .main-nav {
+        float: left;
+        margin-top: 20px;
         display: none;
+    }
+    .main-nav li {
+        display: block;
+        margin-bottom: 5px;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        padding: 2px 0;
+    }
+    .sticky .main-nav {
+        float: left;
+        list-style: none;
+        margin-top: 10px;
+    }
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited {
+        padding: 2px 0;
+    }
+    .sticky .logo-black {
+        display: block;
+        margin: 20px 0;
+    }
+    .sticky .nav-mobile-icons {
+        color: #555;
     }
     .long-copy {
         width: 100%;
